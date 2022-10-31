@@ -2515,6 +2515,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable frog
 drawable frogbit
+drawable grass
 drawable ic_baseline_attach_money_24
 drawable ic_baseline_local_shipping_24
 drawable ic_clock_black_24dp
@@ -3061,6 +3062,8 @@ id start_order_btn
 id staticLayout
 id staticPostLayout
 id status_bar_latest_event_content
+id steak
+id steak_price
 id stop
 id stretch
 id submenuarrow

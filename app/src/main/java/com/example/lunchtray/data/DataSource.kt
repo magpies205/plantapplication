@@ -71,9 +71,15 @@ object DataSource {
                     price = 12.00,
                     type = ItemType.ENTREE
                 ),
+        "steak" to
+                MenuItem(
+                    name = "Dwarf Grass",
+                    price = 7.50,
+                    type = ItemType.ENTREE
+                ),
         "salad" to
                 MenuItem(
-                    name = "2 Day Delivery",
+                    name = "1 Day Delivery",
                     //description = "Heirloom tomatoes, butter lettuce, peaches, avocado, balsamic dressing",
                     price = 10.00,
                     type = ItemType.SIDE_DISH
@@ -82,14 +88,14 @@ object DataSource {
                 MenuItem(
                     name = "5 Day Delivery",
                     //description = "Roasted butternut squash, roasted peppers, chili oil",
-                    price = 7.00,
+                    price = 5.00,
                     type = ItemType.SIDE_DISH
                 ),
         "potatoes" to
                 MenuItem(
                     name = "7+ Day Delivery",
                     //description = "Marble potatoes, roasted, and fried in house spice blend",
-                    price = 2.00,
+                    price = 1.00,
                     type = ItemType.SIDE_DISH
                 ),
         "rice" to

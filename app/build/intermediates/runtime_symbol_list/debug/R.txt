@@ -2514,6 +2514,7 @@ int drawable design_password_eye 0x7f070064
 int drawable design_snackbar_background 0x7f070065
 int drawable frog 0x7f0700a5
 int drawable frogbit 0x7f0700a6
+int drawable grass 0x7f0700a7
 int drawable ic_baseline_attach_money_24 0x7f070066
 int drawable ic_baseline_local_shipping_24 0x7f070067
 int drawable ic_clock_black_24dp 0x7f070068
@@ -3060,6 +3061,8 @@ int id start_order_btn 0x7f0801e4
 int id staticLayout 0x7f0801e5
 int id staticPostLayout 0x7f0801e6
 int id status_bar_latest_event_content 0x7f0801e7
+int id steak 0x7f080241
+int id steak_price 0x7f080242
 int id stop 0x7f0801e8
 int id stretch 0x7f0801e9
 int id submenuarrow 0x7f0801ea

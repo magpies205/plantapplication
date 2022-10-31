@@ -229,6 +229,26 @@
                     android:paddingTop="@dimen/base_margin"
                     android:tag="binding_14"                                          
                     tools:text="$0.00" />
+                <RadioButton
+                    android:id="@+id/steak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:tag="binding_15"                           
+                    tools:text="Entree 7"
+                                                                           />
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/grass" />
+
+                <TextView
+                    android:id="@+id/steak_price"
+                    style="@style/Widget.MenuItem.TextView.Info"
+                    android:paddingTop="@dimen/base_margin"
+                    android:tag="binding_16"                                          
+                    tools:text="$0.00" />
 
 
             </RadioGroup>
@@ -250,7 +270,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
                 tools:text="Subtotal $5.00"
-                android:tag="binding_15"                              />
+                android:tag="binding_17"                              />
 
             <!-- TODO: cancel the order when clicked -->
 
@@ -261,7 +281,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/subtotal"
-                android:tag="binding_16"                                  />
+                android:tag="binding_18"                                  />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

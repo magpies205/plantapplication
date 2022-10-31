@@ -229,6 +229,26 @@
                     android:paddingTop="@dimen/base_margin"
                     android:text='@{viewModel.menuItems["pizza"].getFormattedPrice()}'
                     tools:text="$0.00" />
+                <RadioButton
+                    android:id="@+id/steak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:text='@{viewModel.menuItems["steak"].name}'
+                    tools:text="Entree 7"
+                    android:onClick='@{() -> viewModel.setEntree("steak")}'/>
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/grass" />
+
+                <TextView
+                    android:id="@+id/steak_price"
+                    style="@style/Widget.MenuItem.TextView.Info"
+                    android:paddingTop="@dimen/base_margin"
+                    android:text='@{viewModel.menuItems["steak"].getFormattedPrice()}'
+                    tools:text="$0.00" />
 
 
             </RadioGroup>

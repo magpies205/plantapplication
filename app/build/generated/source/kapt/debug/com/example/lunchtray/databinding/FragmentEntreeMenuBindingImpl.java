@@ -14,15 +14,16 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.entree_options, 17);
-        sViewsWithIds.put(R.id.imageView, 18);
-        sViewsWithIds.put(R.id.imageView2, 19);
-        sViewsWithIds.put(R.id.imageView3, 20);
-        sViewsWithIds.put(R.id.imageView4, 21);
-        sViewsWithIds.put(R.id.imageView5, 22);
-        sViewsWithIds.put(R.id.imageView6, 23);
-        sViewsWithIds.put(R.id.imageView7, 24);
-        sViewsWithIds.put(R.id.divider, 25);
+        sViewsWithIds.put(R.id.entree_options, 19);
+        sViewsWithIds.put(R.id.imageView, 20);
+        sViewsWithIds.put(R.id.imageView2, 21);
+        sViewsWithIds.put(R.id.imageView3, 22);
+        sViewsWithIds.put(R.id.imageView4, 23);
+        sViewsWithIds.put(R.id.imageView5, 24);
+        sViewsWithIds.put(R.id.imageView6, 25);
+        sViewsWithIds.put(R.id.imageView7, 26);
+        sViewsWithIds.put(R.id.imageView8, 27);
+        sViewsWithIds.put(R.id.divider, 28);
     }
     // views
     @NonNull
@@ -39,6 +40,8 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
     @Nullable
     private final android.view.View.OnClickListener mCallback9;
     @Nullable
+    private final android.view.View.OnClickListener mCallback17;
+    @Nullable
     private final android.view.View.OnClickListener mCallback13;
     @Nullable
     private final android.view.View.OnClickListener mCallback14;
@@ -49,7 +52,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
     // Inverse Binding Event Handlers
 
     public FragmentEntreeMenuBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 26, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 29, sIncludes, sViewsWithIds));
     }
     private FragmentEntreeMenuBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
@@ -59,25 +62,28 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
             , (android.widget.TextView) bindings[10]
             , (android.widget.RadioButton) bindings[3]
             , (android.widget.TextView) bindings[4]
-            , (android.view.View) bindings[25]
-            , (android.widget.RadioGroup) bindings[17]
+            , (android.view.View) bindings[28]
+            , (android.widget.RadioGroup) bindings[19]
             , (android.widget.RadioButton) bindings[11]
             , (android.widget.TextView) bindings[12]
-            , (android.widget.ImageView) bindings[18]
-            , (android.widget.ImageView) bindings[19]
             , (android.widget.ImageView) bindings[20]
             , (android.widget.ImageView) bindings[21]
             , (android.widget.ImageView) bindings[22]
             , (android.widget.ImageView) bindings[23]
             , (android.widget.ImageView) bindings[24]
-            , (android.widget.Button) bindings[16]
+            , (android.widget.ImageView) bindings[25]
+            , (android.widget.ImageView) bindings[26]
+            , (android.widget.ImageView) bindings[27]
+            , (android.widget.Button) bindings[18]
             , (android.widget.RadioButton) bindings[5]
             , (android.widget.TextView) bindings[6]
             , (android.widget.RadioButton) bindings[13]
             , (android.widget.TextView) bindings[14]
             , (android.widget.RadioButton) bindings[7]
             , (android.widget.TextView) bindings[8]
-            , (android.widget.TextView) bindings[15]
+            , (android.widget.RadioButton) bindings[15]
+            , (android.widget.TextView) bindings[16]
+            , (android.widget.TextView) bindings[17]
             );
         this.cauliflower.setTag(null);
         this.cauliflowerPrice.setTag(null);
@@ -96,6 +102,8 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
         this.pizzaPrice.setTag(null);
         this.skillet.setTag(null);
         this.skilletPrice.setTag(null);
+        this.steak.setTag(null);
+        this.steakPrice.setTag(null);
         this.subtotal.setTag(null);
         setRootTag(root);
         // listeners
@@ -104,6 +112,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
         mCallback16 = new com.example.lunchtray.generated.callback.OnClickListener(this, 8);
         mCallback12 = new com.example.lunchtray.generated.callback.OnClickListener(this, 4);
         mCallback9 = new com.example.lunchtray.generated.callback.OnClickListener(this, 1);
+        mCallback17 = new com.example.lunchtray.generated.callback.OnClickListener(this, 9);
         mCallback13 = new com.example.lunchtray.generated.callback.OnClickListener(this, 5);
         mCallback14 = new com.example.lunchtray.generated.callback.OnClickListener(this, 6);
         mCallback10 = new com.example.lunchtray.generated.callback.OnClickListener(this, 2);
@@ -188,6 +197,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
         java.lang.String viewModelMenuItemsHamburgerName = null;
         androidx.lifecycle.LiveData<java.lang.String> viewModelSubtotal = null;
         java.lang.String viewModelMenuItemsSkilletGetFormattedPrice = null;
+        java.lang.String viewModelMenuItemsSteakGetFormattedPrice = null;
         java.lang.String viewModelMenuItemsChickenName = null;
         java.lang.String viewModelMenuItemsPastaName = null;
         com.example.lunchtray.model.MenuItem viewModelMenuItemsPasta = null;
@@ -195,6 +205,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
         java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
         com.example.lunchtray.ui.order.EntreeMenuFragment entreeFragment = mEntreeFragment;
         java.lang.String viewModelMenuItemsCauliflowerGetFormattedPrice = null;
+        com.example.lunchtray.model.MenuItem viewModelMenuItemsSteak = null;
         com.example.lunchtray.model.MenuItem viewModelMenuItemsCauliflower = null;
         com.example.lunchtray.model.MenuItem viewModelMenuItemsHamburger = null;
         com.example.lunchtray.model.MenuItem viewModelMenuItemsSkillet = null;
@@ -211,6 +222,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
         java.lang.String viewModelMenuItemsChiliName = null;
         com.example.lunchtray.model.MenuItem viewModelMenuItemsPizza = null;
         com.example.lunchtray.model.MenuItem viewModelMenuItemsChili = null;
+        java.lang.String viewModelMenuItemsSteakName = null;
         com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
 
         if ((dirtyFlags & 0xdL) != 0) {
@@ -243,6 +255,8 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
                     if (viewModelMenuItems != null) {
                         // read viewModel.menuItems["pasta"]
                         viewModelMenuItemsPasta = viewModelMenuItems.get("pasta");
+                        // read viewModel.menuItems["steak"]
+                        viewModelMenuItemsSteak = viewModelMenuItems.get("steak");
                         // read viewModel.menuItems["cauliflower"]
                         viewModelMenuItemsCauliflower = viewModelMenuItems.get("cauliflower");
                         // read viewModel.menuItems["hamburger"]
@@ -263,6 +277,12 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
                         viewModelMenuItemsPastaName = viewModelMenuItemsPasta.getName();
                         // read viewModel.menuItems["pasta"].getFormattedPrice()
                         viewModelMenuItemsPastaGetFormattedPrice = viewModelMenuItemsPasta.getFormattedPrice();
+                    }
+                    if (viewModelMenuItemsSteak != null) {
+                        // read viewModel.menuItems["steak"].getFormattedPrice()
+                        viewModelMenuItemsSteakGetFormattedPrice = viewModelMenuItemsSteak.getFormattedPrice();
+                        // read viewModel.menuItems["steak"].name
+                        viewModelMenuItemsSteakName = viewModelMenuItemsSteak.getName();
                     }
                     if (viewModelMenuItemsCauliflower != null) {
                         // read viewModel.menuItems["cauliflower"].getFormattedPrice()
@@ -320,6 +340,8 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.pizzaPrice, viewModelMenuItemsPizzaGetFormattedPrice);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.skillet, viewModelMenuItemsSkilletName);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.skilletPrice, viewModelMenuItemsSkilletGetFormattedPrice);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.steak, viewModelMenuItemsSteakName);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.steakPrice, viewModelMenuItemsSteakGetFormattedPrice);
         }
         if ((dirtyFlags & 0x8L) != 0) {
             // api target 1
@@ -328,10 +350,11 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
             this.chicken.setOnClickListener(mCallback13);
             this.chili.setOnClickListener(mCallback10);
             this.hamburger.setOnClickListener(mCallback14);
-            this.nextButton.setOnClickListener(mCallback16);
+            this.nextButton.setOnClickListener(mCallback17);
             this.pasta.setOnClickListener(mCallback11);
             this.pizza.setOnClickListener(mCallback15);
             this.skillet.setOnClickListener(mCallback12);
+            this.steak.setOnClickListener(mCallback16);
         }
         if ((dirtyFlags & 0xdL) != 0) {
             // api target 1
@@ -381,18 +404,19 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
             }
             case 8: {
                 // localize variables for thread safety
-                // entreeFragment != null
-                boolean entreeFragmentJavaLangObjectNull = false;
-                // entreeFragment
-                com.example.lunchtray.ui.order.EntreeMenuFragment entreeFragment = mEntreeFragment;
+                // viewModel
+                com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
+                // viewModel != null
+                boolean viewModelJavaLangObjectNull = false;
 
 
 
-                entreeFragmentJavaLangObjectNull = (entreeFragment) != (null);
-                if (entreeFragmentJavaLangObjectNull) {
+                viewModelJavaLangObjectNull = (viewModel) != (null);
+                if (viewModelJavaLangObjectNull) {
 
 
-                    entreeFragment.goToNextScreen();
+
+                    viewModel.setEntree("steak");
                 }
                 break;
             }
@@ -429,6 +453,23 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
 
 
                     viewModel.setEntree("cauliflower");
+                }
+                break;
+            }
+            case 9: {
+                // localize variables for thread safety
+                // entreeFragment != null
+                boolean entreeFragmentJavaLangObjectNull = false;
+                // entreeFragment
+                com.example.lunchtray.ui.order.EntreeMenuFragment entreeFragment = mEntreeFragment;
+
+
+
+                entreeFragmentJavaLangObjectNull = (entreeFragment) != (null);
+                if (entreeFragmentJavaLangObjectNull) {
+
+
+                    entreeFragment.goToNextScreen();
                 }
                 break;
             }
