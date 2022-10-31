@@ -70,6 +70,9 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
   public final ImageView imageView6;
 
   @NonNull
+  public final ImageView imageView7;
+
+  @NonNull
   public final Button nextButton;
 
   @NonNull
@@ -77,6 +80,12 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
 
   @NonNull
   public final TextView pastaPrice;
+
+  @NonNull
+  public final RadioButton pizza;
+
+  @NonNull
+  public final TextView pizzaPrice;
 
   @NonNull
   public final RadioButton skillet;
@@ -98,8 +107,9 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
       TextView chickenPrice, RadioButton chili, TextView chiliPrice, View divider,
       RadioGroup entreeOptions, RadioButton hamburger, TextView hamburgerPrice, ImageView imageView,
       ImageView imageView2, ImageView imageView3, ImageView imageView4, ImageView imageView5,
-      ImageView imageView6, Button nextButton, RadioButton pasta, TextView pastaPrice,
-      RadioButton skillet, TextView skilletPrice, TextView subtotal) {
+      ImageView imageView6, ImageView imageView7, Button nextButton, RadioButton pasta,
+      TextView pastaPrice, RadioButton pizza, TextView pizzaPrice, RadioButton skillet,
+      TextView skilletPrice, TextView subtotal) {
     super(_bindingComponent, _root, _localFieldCount);
     this.cauliflower = cauliflower;
     this.cauliflowerPrice = cauliflowerPrice;
@@ -117,9 +127,12 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
+    this.imageView7 = imageView7;
     this.nextButton = nextButton;
     this.pasta = pasta;
     this.pastaPrice = pastaPrice;
+    this.pizza = pizza;
+    this.pizzaPrice = pizzaPrice;
     this.skillet = skillet;
     this.skilletPrice = skilletPrice;
     this.subtotal = subtotal;

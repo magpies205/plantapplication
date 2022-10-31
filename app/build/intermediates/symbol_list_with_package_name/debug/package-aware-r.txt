@@ -2513,6 +2513,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable frog
+drawable frogbit
 drawable ic_baseline_attach_money_24
 drawable ic_baseline_local_shipping_24
 drawable ic_clock_black_24dp
@@ -2968,6 +2970,8 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pizza
+id pizza_price
 id position
 id postLayout
 id potato_price

@@ -65,6 +65,12 @@ object DataSource {
                     price = 6.00,
                     type = ItemType.ENTREE
                 ),
+        "pizza" to
+                MenuItem(
+                    name = "Frogbit",
+                    price = 12.00,
+                    type = ItemType.ENTREE
+                ),
         "salad" to
                 MenuItem(
                     name = "2 Day Delivery",

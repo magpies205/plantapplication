@@ -16,8 +16,16 @@
         "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_start_order.xml"
     },
     {
+        "merged": "com.example.lunchtray.app-merged_res-47:/drawable_frogbit.jpeg.flat",
+        "source": "com.example.lunchtray.app-main-49:/drawable/frogbit.jpeg"
+    },
+    {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/layout_fragment_checkout.xml.flat",
         "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/drawable_salv.jpeg.flat",
+        "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/drawable/salv.jpeg"
     },
     {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -26,10 +34,6 @@
     {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/navigation_mobile_navigation.xml.flat",
         "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/navigation/mobile_navigation.xml"
-    },
-    {
-        "merged": "com.example.lunchtray.app-merged_res-47:/drawable_salv.jpeg.flat",
-        "source": "com.example.lunchtray.app-main-49:/drawable/salv.jpeg"
     },
     {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/drawable_luckybamboo.jpeg.flat",
@@ -48,10 +52,6 @@
         "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_side_menu.xml"
     },
     {
-        "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/layout_fragment_accompaniment_menu.xml.flat",
-        "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_accompaniment_menu.xml"
-    },
-    {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/drawable/ic_launcher_background.xml"
     },
@@ -60,8 +60,16 @@
         "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/drawable/ic_baseline_local_shipping_24.xml"
     },
     {
+        "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/drawable_moss.jpeg.flat",
+        "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/drawable/moss.jpeg"
+    },
+    {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/layout_activity_main.xml.flat",
         "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/drawable_frog.jpg.flat",
+        "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/drawable/frog.jpg"
     },
     {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/drawable_ic_launcher_foreground.xml.flat",
@@ -74,10 +82,6 @@
     {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/layout_fragment_entree_menu.xml.flat",
         "source": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_entree_menu.xml"
-    },
-    {
-        "merged": "com.example.lunchtray.app-merged_res-47:/drawable_moss.jpeg.flat",
-        "source": "com.example.lunchtray.app-main-49:/drawable/moss.jpeg"
     },
     {
         "merged": "/Users/meganarchibald/.gradle/daemon/7.4.2/com.example.lunchtray.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",

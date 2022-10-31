@@ -196,7 +196,7 @@
                     android:id="@+id/hamburger"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:tag="binding_11"                               
-                    tools:text="Entree 5"
+                    tools:text="Entree 6"
                                                                                />
                 <ImageView
                     android:id="@+id/imageView6"
@@ -208,6 +208,26 @@
                     style="@style/Widget.MenuItem.TextView.Info"
                     android:paddingTop="8dp"
                     android:tag="binding_12"                                              
+                    tools:text="$0.00" />
+                <RadioButton
+                    android:id="@+id/pizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:tag="binding_13"                           
+                    tools:text="Entree 7"
+                                                                           />
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/frogbit" />
+
+                <TextView
+                    android:id="@+id/pizza_price"
+                    style="@style/Widget.MenuItem.TextView.Info"
+                    android:paddingTop="@dimen/base_margin"
+                    android:tag="binding_14"                                          
                     tools:text="$0.00" />
 
 
@@ -230,7 +250,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
                 tools:text="Subtotal $5.00"
-                android:tag="binding_13"                              />
+                android:tag="binding_15"                              />
 
             <!-- TODO: cancel the order when clicked -->
 
@@ -241,7 +261,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/subtotal"
-                android:tag="binding_14"                                  />
+                android:tag="binding_16"                                  />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

@@ -196,7 +196,7 @@
                     android:id="@+id/hamburger"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["hamburger"].name}'
-                    tools:text="Entree 5"
+                    tools:text="Entree 6"
                     android:onClick='@{() -> viewModel.setEntree("hamburger")}'/>
                 <ImageView
                     android:id="@+id/imageView6"
@@ -208,6 +208,26 @@
                     style="@style/Widget.MenuItem.TextView.Info"
                     android:paddingTop="8dp"
                     android:text='@{viewModel.menuItems["hamburger"].getFormattedPrice()}'
+                    tools:text="$0.00" />
+                <RadioButton
+                    android:id="@+id/pizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:text='@{viewModel.menuItems["pizza"].name}'
+                    tools:text="Entree 7"
+                    android:onClick='@{() -> viewModel.setEntree("pizza")}'/>
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/frogbit" />
+
+                <TextView
+                    android:id="@+id/pizza_price"
+                    style="@style/Widget.MenuItem.TextView.Info"
+                    android:paddingTop="@dimen/base_margin"
+                    android:text='@{viewModel.menuItems["pizza"].getFormattedPrice()}'
                     tools:text="$0.00" />
 
 
